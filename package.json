@@ -1,0 +1,16 @@
+{
+  "name": "freebot",
+  "version": "1.0.0",
+  "description": "um bot gratis para servidor de minecraft",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DuGue Dark",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^4.4.0",
+    "mineflayer-dashboard": "^2.0.1",
+    "mineflayer-pathfinder": "^2.3.3"
+  }
+}

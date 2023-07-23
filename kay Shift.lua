@@ -43,7 +43,7 @@ G2L["a1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["a1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a1"]["Size"] = UDim2.new(0, 35, 0, 35);
 G2L["a1"]["Name"] = [[Open/Close]];
-G2L["a1"]["Text"] = [[P]];
+G2L["a1"]["Text"] = [[LeftSh]];
 G2L["a1"]["Position"] = UDim2.new(0.05, 0, 0.015, 0);
 
 -- StarterGui.GuiByNor.Open/Close.LocalScript
@@ -52,7 +52,7 @@ G2L["a2"] = Instance.new("LocalScript", G2L["a1"]);
 local function C_a7()
 local script = G2L["a2"];
 	script.Parent.MouseButton1Down:Connect(function()
-		getfenv().keytoclick = "P"
+		getfenv().keytoclick = "LeftShift"
 		local vim = game:service("VirtualInputManager")
 		vim:SendKeyEvent(true, keytoclick, false, game)
 	end)
